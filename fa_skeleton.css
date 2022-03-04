@@ -1,0 +1,95 @@
+:root{
+    --background-color:pink;
+   
+}
+.container-fluid{
+    background-color:aqua;
+}
+.navbar{
+    height: 40px;
+    background-color: var(--background-color);
+}
+.nav2{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: repeat(6, 3fr);
+    justify-items: center;
+}
+.nav3{
+    background-color: var(--bs-green);
+    height: 180px;
+    display: grid;
+  place-items:center;
+    
+}
+.nav4{
+    background-color: rgb(42, 165, 149);
+    padding: 1rem;
+}
+.img1{
+    position: relative;
+  
+   background-color: aqua;
+   width: auto; 
+   color: white;
+}
+.class1{
+    position: absolute;
+    top: 42%;
+    left: 16px;
+
+}
+button{
+    background-color: rgba(128, 128, 128, 0.767);
+    /* padding: 1rem; */
+    font-family: 'Roboto';
+   
+}
+@media screen and (max-width:414px){
+    .class1 > h1, .navbar{
+        display: none;
+    }
+    img{
+     
+    }
+  
+}
+.main{
+  background-color:var(--bs-gray-200);;
+    
+    padding: 0rem 2rem 0rem 2rem;
+    
+    
+}
+.main1{
+    background-color: violet;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-block: 10px;
+    
+    
+}
+.sidebar{
+    background-color: yellow;
+ 
+    padding: 1.5rem;
+}
+.center{
+    text-align: center;
+}
+
+
+.img3{
+    background-image: url('./avatar_smoke.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.button{
+    color: white;
+}
+.button:hover{
+    background-color:var(--bs-gray-400);
+    color: black;
+
+}
